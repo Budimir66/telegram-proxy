@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // ===== НАСТРОЙКИ =====
-const RUSSIAN_SERVER = process.env.RUSSIAN_SERVER || 'https://твой-сервер.ru';
-const PORT = process.env.PORT || 3000;
+const RUSSIAN_SERVER = process.env.RUSSIAN_SERVER || 'https://curiously-cogent-sole.cloudpub.ru/';
+const PORT = process.env.PORT || 8080;
 
 console.log(`✅ Прокси запущен. Сервер: ${RUSSIAN_SERVER}`);
 
